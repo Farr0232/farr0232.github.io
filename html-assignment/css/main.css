@@ -44,3 +44,9 @@ nav ul a:focus {
 nav ul a:active {
     box-shadow: 0px 0px 2px 1px black;
 }
+h1,
+h2,
+h3,
+h4 {
+    text-decoration: underline;
+}
