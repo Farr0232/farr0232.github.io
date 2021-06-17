@@ -48,8 +48,14 @@ nav ul a {
 
 article>p {
     font-size: 24px;
-}
+    font-weight: bold;
+    line-height: 1.5;
+    text-transform: lowercase;
+    text-align: center;
+    }
+
 /* adjusts sibling selector */
+
 h3+ul {
     /* thinkness style color */
     border: 1px solid black;
