@@ -1,6 +1,8 @@
 body {
     color: darkslategrey;
     font-family: Arial, Helvetica, sans-serif;
+    /*  adds backrgound image */
+    background-image: url(../images/white_brick_wall.png) ;
 }
 
 /*  This is a CSS comment ( CTRL + / ) */
@@ -31,7 +33,11 @@ nav ul a {
 }
 /*  selecting element with ID value */
 #treatofweek {
-    background-color: orange;
+    /* color image repeat position x position y / size */
+    background: orange url(../images/bread.jpg) no-repeat center center;
+    background-size: cover;
+    color: white;
+
 }
 /*  selecting elements with class value */
 .orange-link {
