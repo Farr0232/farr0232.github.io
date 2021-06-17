@@ -38,6 +38,13 @@ nav ul a {
     background-size: cover;
     color: white;
 
+    font-size: 1.25rem;
+    /* 1.25 x 16 = 20px */
+    /* 1em = 20px */
+padding: 1em;
+/* viewport based units VH and VW */
+/*  */
+width: 50vw;
 }
 /*  selecting elements with class value */
 .orange-link {
@@ -48,6 +55,7 @@ nav ul a {
 
 .large-text {
     font-size: 24px;
+    /*  html = 16px 1.5 rem = 1.5 x 16 = 24px */
 }
 
 /*  child selector or direct child selector */
@@ -124,14 +132,33 @@ n = 0,1,2,3...
       background-color: rgba(0, 0, 0, 0.2);
     }
 
-    /*  Specifity formula
-    in-line styles, id, class, tag  */
+   /* 
+  CSS Specificity
+  Formula: inline-styles id class tag-name
+*/
 
-    footer {
-        background-color: aqua;
-    }
-
-/* 00 */
-    body footer {
-        background-color: red;
-    }
+/* 0001 */
+footer {
+    background-color: aqua;
+  }
+  
+  /* 0001 */
+  footer {
+    background-color: red;
+  }
+  
+  
+  /* 0002 */
+  body footer {
+    background-color: orange;
+  }
+  
+  /* 0010 */
+  .site-footer {
+    background-color: cornflowerblue;
+  }
+  
+  /* 0011 */
+  footer.site-footer {
+    background-color: teal;
+  }
