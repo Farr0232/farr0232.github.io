@@ -136,6 +136,16 @@ li:first-child{
     color: inherit;
 }
 
+.search-bar {
+	display: flex;
+}
+
+button {
+	border: none;
+	padding: 0;
+	background: none; 
+}
+
 #search {
 	width: 90%;
 	height: 40px;
@@ -144,12 +154,49 @@ li:first-child{
 }
 
 .im-magnifier {
-	outline: none;
 	border: 1px solid #c78c06;
-	padding: 0px;
-	background: none;
 	background-color: #222;
 	color:#c78c06;
-	height: 40px;
 	cursor: pointer;
+	padding: 19px;
+}
+
+.aboutcontainer {
+	display: flexbox;
+	background: #ffe6ac;
+	padding-bottom: 20px;
+}
+
+.about img {
+	width: 100%;
+	margin-top: 15px;
+}
+
+.about-us h2 {
+	justify-content: space-evenly;
+	font-size: 3rem;
+	font-weight: bolder;
+	margin-left: 10px;
+}
+.about-us p {
+	margin: 15px;
+	font-size: 12pt;
+	line-height: 1.5;
+}
+/* ==========================================
+				Services Section
+============================================= */
+
+.all-services {
+	display: grid;
+}
+
+.digital {
+	background:#ffe6ac;
+}
+
+#service {
+	font-size: 3rem;
+	font-weight: bolder;
+	margin-left: 10px;
 }
