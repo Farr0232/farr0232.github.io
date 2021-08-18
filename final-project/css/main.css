@@ -57,54 +57,12 @@ html {
 
 .container {
     max-width: 1200px;
-    margin: auto 0;
-}
-
-.office-background {
-	background: url(../images/main-banner.jpg) no-repeat center center;
-	background-size: cover;
-	height: 750px;
-	padding-top: 80px;
-}
-
-.welcome-banner{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content:left;
-	background: rgba(0, 0, 0, 0.65);
-	height: 570px; 
-}
-
-.welcome-banner h1 {
-	font-size: 5rem;
-	font-weight: bold;
-	line-height: 1.5;
-	color: white;
-	margin-left: 20px;
-	padding-top: 80px;
-}
-
-.welcome-banner p {
-	color: white;
-	margin-left: 20px;
-	line-height: 1.4;
-}
-
-.connect {
-	font-size: 2rem;
-	text-decoration: none;
-	background: #c78c06;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 40px;
-	padding-bottom: 30px;
-	margin-left: 20px;
-	margin-bottom: 50px;
+    margin: 0 auto;
 }
 
 
 /* =====================================
-Navigation					
+              Navigation					
 =====================================*/
 .header-container {
 	background: #222;
@@ -124,15 +82,16 @@ li:first-child{
 .nav-list a,
 .nav-list a:link,
 .nav-list a:visited {
-    display: block;
+	display: block;
     padding: 1em 0;
     text-decoration: none;
+	color:#c78c06 ;
 }
 
 .nav-list a:hover,
 .nav-list a:focus,
 .nav-list a.current{
-    background-color:#c78c06;
+	background-color:#c78c06;
     color: inherit;
 }
 
@@ -161,8 +120,46 @@ button {
 	padding: 19px;
 }
 
+.office-background {
+	background: url(../images/main-banner.jpg) no-repeat center center;
+	background-size: cover;
+	height: 750px;
+	padding-top: 80px;
+}
+
+.welcome-banner{
+	background: rgba(0, 0, 0, 0.65);
+	height: 670px; 
+}
+
+.welcome-banner h1 {
+	font-size: 3.52em;
+	font-weight: bold;
+	line-height: 5rem;
+	color: white;
+	margin-left: 20px;
+	margin-bottom: 50px;
+	padding-top: 30px;
+
+}
+
+.welcome-banner p {
+	color: white;
+	margin-left: 20px;
+	line-height: 1.4;
+	margin-bottom: 80px;
+}
+
+.connect {
+	font-size: 1.75rem;
+	text-decoration: none;
+	background: #c78c06;
+	margin-left: 20px;
+	padding: 30px;
+	color: black;
+}
 .aboutcontainer {
-	display: flexbox;
+	display: flex;
 	background: #ffe6ac;
 	padding-bottom: 20px;
 }
@@ -187,16 +184,456 @@ button {
 				Services Section
 ============================================= */
 
-.all-services {
-	display: grid;
-}
-
-.digital {
-	background:#ffe6ac;
-}
-
 #service {
 	font-size: 3rem;
 	font-weight: bolder;
 	margin-left: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
+
+.digital {
+	background:#ffe6ac;
+	padding-bottom: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.digital img{
+	width: 100%;
+}
+
+.digital h3 {
+	font-size: 2rem;
+	font-weight: bolder;
+	margin: 10px;
+}
+
+.digital p {
+	font-size: 12pt;
+	line-height: 1.5;
+	margin: 20px;
+	margin-bottom: 25px;
+}
+
+.digital-plans {
+	font-size: 1.25rem;
+	text-decoration: none;
+	margin-left: 10px;
+	color: white;
+	background: #222;
+	padding: 20px;
+}
+
+.im-care-right {
+	margin-left: 20px;
+}
+
+.marketing {
+	background:#ffe6ac;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-bottom: 30px;
+}
+
+.marketing img {
+	width: 100%;
+}
+
+.marketing h3 {
+	font-size: 2rem;
+	font-weight: bolder;
+	margin: 10px;
+}
+
+.marketing p {
+	font-size: 12pt;
+	line-height: 1.5;
+	margin: 20px;
+	margin-bottom: 25px;
+}
+
+.marketing-plans {
+	font-size: 1.25rem;
+	text-decoration: none;
+	margin-left: 10px;
+	color: white;
+	background: #222;
+	padding: 20px;
+}
+
+.video-prod {
+	background:#ffe6ac;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-bottom: 30px;
+}
+
+.video-prod img {
+	width: 100%;
+}
+
+.video-prod h3 {
+	font-size: 2rem;
+	font-weight: bolder;
+	margin: 10px;
+}
+
+.video-prod p {
+	font-size: 12pt;
+	line-height: 1.5;
+	margin: 20px;
+	margin-bottom: 25px;
+}
+
+.video-plans {
+	font-size: 1.25rem;
+	text-decoration: none;
+	margin-left: 10px;
+	color: white;
+	background: #222;
+	padding: 20px;
+}
+
+.web-dev {
+	background:#ffe6ac;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-bottom: 30px;
+}
+
+.web-dev img {
+	width: 100%;
+}
+
+.web-dev h3 {
+	font-size: 2rem;
+	font-weight: bolder;
+	margin: 10px;
+}
+
+.web-dev p {
+	font-size: 12pt;
+	line-height: 1.5;
+	margin: 20px;
+	margin-bottom: 25px;
+}
+
+.web-plans {
+	font-size: 1.25rem;
+	text-decoration: none;
+	margin-left: 10px;
+	color: white;
+	background: #222;
+	padding: 20px;
+}
+
+.print {
+	background:#ffe6ac;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-bottom: 30px;
+}
+
+.print img {
+	width: 100%;
+}
+
+.print h3 {
+	font-size: 2rem;
+	font-weight: bolder;
+	margin: 10px;
+}
+
+.print p {
+	font-size: 12pt;
+	line-height: 1.5;
+	margin: 20px;
+	margin-bottom: 25px;
+}
+
+.print-plans {
+	font-size: 1.25rem;
+	text-decoration: none;
+	margin-left: 10px;
+	color: white;
+	background: #222;
+	padding: 20px;
+}
+
+.vision {
+	background: url(../images/vision.jpg) no-repeat center center; 
+	background-size: cover;
+	height: 250px;
+	padding-bottom: 20px;
+}
+
+.vision h3 {
+	color: white;
+	font-size: 2rem;
+	font-weight: bolder ;
+}
+
+.vision p {
+	color: white;
+	line-height: 1.5;
+	margin-top: 15px;
+	margin-bottom: 35px;
+	margin-left: 5px;
+}
+
+.our-vision {
+	padding-top: 35px;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+.learn-more {
+	font-size: 1.25rem;
+	text-decoration: none;
+	margin-left: 5px;
+	margin-top: 20px;
+	color: white;
+	background: rgba(0, 0, 0, 0.65);
+	border: 1px solid #c78c06 ;
+	padding: 20px;
+}
+.our-team img {
+	width: 100%;
+}
+
+#team{
+	padding: 15px;
+	font-size: 3rem;
+	font-weight: bolder;
+}
+.our-team h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-left: 15px;
+	margin-bottom: 5px;
+}
+.our-team h3 {
+	margin-left: 15px;
+	font-size: 1rem;
+	font-weight: bold;
+}
+.our-team p {
+	margin: 15px;
+	line-height: 1.5;
+	border-top:3px solid #c78c06 ;
+}
+.john {
+	background:#ffe6ac;
+	padding-bottom: 30px;
+}
+.bob-box{
+	padding-top: 10px;
+	background: #ffe6ac;
+}
+.bob {
+	margin-bottom: 20px;
+}
+
+.contact {
+	line-height: 2;
+	padding-right: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 10px;
+}
+
+.contact h1 {
+	font-size: 3rem;
+	font-weight: bolder;
+}
+.contact h2 {
+	font-size: 2rem;
+	font-weight: bolder;
+}
+
+input[type=email],
+input[type=text] {
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+	height: 200px;
+	resize: none;
+}
+
+#button {
+	font-size: 1.2rem;
+	background-color: #222;
+	color:#c78c06;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.hours {
+	margin-left: 10px;
+}
+
+.hours h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 10px;
+
+}
+table{
+	width: 100%;
+}
+table th:nth-child(n),
+table td:nth-child(n) { 
+	border: 1px solid #000;
+}
+table th {
+	background: #ffe6ac;
+	padding: 20px;
+}
+table td {
+	padding: 20px;
+}
+
+.location {
+	margin-top: 35px;
+	margin-top: 25px;
+}
+
+.location h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+iframe {
+	width: 100%;
+}
+
+.site-footer {
+	background:#222;
+	padding: 15px;
+	margin-top: 20px;
+}
+
+.site-footer p {
+	margin: 20px;
+	color: #c78c06;
+	line-height: 1.5;
+}
+.unsplash {
+	color: #c78c06;
+}
+
+
+/* ==========================================================================
+                            Desktop styles
+    ========================================================================= */
+
+@media screen and (min-width:760px){
+    
+html{
+		font-size: 20px;
+	}
+.nav-list {
+	display: flex;
+	align-items: center;
+	margin-left: 100px;
+}
+
+.nav-list li {
+	margin: 10px;
+}
+
+.welcome-banner {
+	margin: 25px;
+}
+
+.welcome-banner p {
+	padding-top: 35px;
+	padding-bottom: 95px;
+}
+.aboutcontainer {
+	display: flex;
+}
+.about {
+	display: flex;
+}
+.about img {
+	width: 50%;
+	margin-left: 10px;
+}
+
+.our-services {
+	margin: 20px;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr)
+}
+.digital {
+	grid-column: span 3;
+}
+
+.marketing {
+	grid-column: span 3;
+	margin-top: 0;
+}
+
+.video-prod {
+	grid-column: span 2;
+}
+
+.web-dev {
+	grid-column: span 2;
+}
+
+.print {
+	grid-column: span 2;
+}
+
+.our-team {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+
+}
+
+.bob-img {
+	grid-row: 2;
+	grid-column: 2;
+}
+.contact-us {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.hours {
+	grid-column: 1;
+	grid-column: span 2;
+}
+.location {
+	grid-column: 2;
+	grid-row: 1;
+}
+.digital-plans {
+	padding: 10px;
+}
+.marketing-plans {
+	padding: 10px;
+}
+.video-plans{
+	padding: 10px;
+}
+.web-plans{
+	padding: 10px;
+}
+.print-plans{
+	padding: 10px;
+}
+.location {
+	margin-top: 155px;
+}
+
+	}
+		
